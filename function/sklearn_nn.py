@@ -18,9 +18,9 @@ from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.metrics import accuracy_score
 from tensorflow import Graph, Session
 
-from utils import batch_generator
-from utils import dump_csv
-from utils import AdamW, SGDW, mixup, DenseVariational
+from DANN_2020.function.utils import batch_generator
+from DANN_2020.function.utils import dump_csv
+from DANN_2020.function.utils import AdamW, SGDW, mixup, DenseVariational
 import matplotlib.pyplot as plt
 import tensorflow as tf
 #from tensorflow.keras.layers import BatchNormalization
